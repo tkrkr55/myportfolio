@@ -12,18 +12,18 @@ export default function Home() {
   const tistory = 'https://hyeru.tistory.com/'
   useEffect(()=>{
 
-    setTimeout(()=>{
+    const timer = setTimeout(()=>{
       setTitle(true)
     },1500)
-
+    return ()=> clearTimeout(timer )
     
   },[])
   useEffect(()=>{
 
-    setTimeout(()=>{
+  const timer = setTimeout(()=>{
       setDes(true)
     },3000)
-
+    return ()=> clearTimeout(timer )
     
   },[])
   return (
