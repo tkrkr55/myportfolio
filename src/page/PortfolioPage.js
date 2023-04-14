@@ -34,7 +34,7 @@ export default function PortfolioPage() {
   return (
     <div>
     <div className='slider_box'>
-        <h2> 포토폴리오 </h2>
+        <h2> 포트폴리오 </h2>
         <div className='bounce-left'>✅ 드래그도 가능 합니다 </div>
         <Slider  {...settings} className="slider">
           <div>
