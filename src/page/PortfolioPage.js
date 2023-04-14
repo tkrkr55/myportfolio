@@ -34,7 +34,7 @@ export default function PortfolioPage() {
   return (
     <div>
     <div className='slider_box'>
-        <h2> 포토폴리오 </h2>
+        <h2> 포트폴리오 </h2>
         <div className='bounce-left'>✅ 드래그도 가능 합니다 </div>
         <Slider  {...settings} className="slider">
           <div>
@@ -206,8 +206,8 @@ export default function PortfolioPage() {
                       </ul>
                     </div>
                     
-                    <div className='des_link'>홈페이지 링크 : <Link to ='https://kimhyeintodolist.netlify.app/'> 우리동네 todolist </Link></div>
-                    git-hup 사이트 : <Link to='https://github.com/Couch-Coders/13th-d-shops-fe'>git-hup</Link>
+                    <div className='des_link'>홈페이지 링크 : <Link to ='https://kimhyeintodolist.netlify.app/'> todoList </Link></div>
+                    
                     
                     </div>
                 </Col>

@@ -9,7 +9,7 @@ export default function Header() {
     <div className='header_wrap'>
       <button className='home' onClick={()=>{navigate('/')}}>소개</button>
       <button className='myinfo' onClick={()=>{navigate('/myinfo')}}>이력서</button>
-      <button className='portfolio' onClick={()=>{navigate('/portfolio')}}>포토폴리오</button>
+      <button className='portfolio' onClick={()=>{navigate('/portfolio')}}>포트폴리오</button>
       <button className='skil' onClick={()=>{navigate('/skil')}}>사용기술 </button>
     </div>
     </>
