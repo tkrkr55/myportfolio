@@ -104,7 +104,7 @@ export default function PortfolioPage() {
                       </ul>
                     </div>
                     
-                    <div className='des_link'>홈페이지 링크 : <Link to ='http://navaer.shop//'> 김집사 </Link></div>
+                    <div className='des_link'>홈페이지 링크 : <Link to ='http://navaer.shop'> 김집사 </Link></div>
                     git-hup 사이트 : <Link to='https://github.com/tkrkr55/animalshop'>git-hup</Link>
                     <div>유튜브 시연영상 <Link to='https://www.youtube.com/watch?v=BE5HmAKQCEE'>김집사시연영상</Link></div>
                    
@@ -113,7 +113,7 @@ export default function PortfolioPage() {
               </Row>
             </>
           </div>
-          <div>
+          <div>~
             <>
             <Row>
                 <Col lg={6} >
