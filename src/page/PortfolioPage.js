@@ -206,8 +206,8 @@ export default function PortfolioPage() {
                       </ul>
                     </div>
                     
-                    <div className='des_link'>홈페이지 링크 : <Link to ='https://kimhyeintodolist.netlify.app/'> 우리동네 todolist </Link></div>
-                    git-hup 사이트 : <Link to='https://github.com/Couch-Coders/13th-d-shops-fe'>git-hup</Link>
+                    <div className='des_link'>홈페이지 링크 : <Link to ='https://kimhyeintodolist.netlify.app/'> todoList </Link></div>
+                    
                     
                     </div>
                 </Col>
